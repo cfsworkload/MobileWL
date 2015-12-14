@@ -42,10 +42,13 @@ Once the container is completely built, you will need to setup your first user t
 ##WishList Mobile App
 The Wishlist app, installed on your mobile device, connects to the MobileFirst Platform server. With the ibm-mobilefirst-starter container, the adapters required for the Wishlist app are already installed.
 
+
 ###Android
 To install the app on your Android device, download Android Studio to open and run the Android project.
-1. Download and install Android Studio SDK, http://developer.android.com/sdk/index.html to open the Android project.
-2. Download the Android project. [Download!](https://ibm.box.com/shared/static/qq10p5xhqxdszq1j9fqiuy12wnayadrf.zip)
+Before you begin, the android project requires Java JDK 7 or better to compile the source code in Android Studio. If you require Java, download it from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
+
+1. Download and install Android Studio SDK from http://developer.android.com/sdk/index.html to open the Android project.
+2. [Download](https://ibm.box.com/shared/static/qq10p5xhqxdszq1j9fqiuy12wnayadrf.zip) the Android project.
 3. Extract the .zip file.
 4. In Android Studio, click **Open an existing Android Studio project**.
 5. Find and select the extracted project folder and click Choose.
