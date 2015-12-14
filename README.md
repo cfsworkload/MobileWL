@@ -4,13 +4,15 @@ The Wishlist mobile app implements functionality to fetch catalog data from a we
 
 ##Create a Cloud Foundry app
 The Cloud Foundry app connects your Cloudant database with your MobileFirst server by binding them to this app.
+
 1. Starting from your Bluemix dashboard, click on **Create App** to start creating your Cloud Foundry app.
 2. Click on the **Web** button to select the app type to create.
 3. Click on **.js** to select the **SDK for Node.js(TM)** then click **Continue**.
 4. Enter an app name then click **Finish** to create the Cloud Foundry app.
 
 ##Add a Cloudant DB Service
-A Cloudant DB stores wishlist items from users as they add them from their mobile devices. 
+A Cloudant DB stores wishlist items from users as they add them from their mobile devices.
+
 1. In your app's Overview, click **Add a Service or API** to get a list of services to add.
 2. In the search field, type in **Cloudant** to find the **Cloudant NoSQL DB** service in the Data and Analytics section.
 3. Click on **Cloudant NoSQL DB** to select the service.
@@ -34,6 +36,7 @@ Before you begin, make sure that you have an available Public IP address. If you
 
 ##Setup MobileFirst
 Once the container is completely built, you will need to setup your first user to be able to access the IBM MobileFirst Platform Operations Console.
+
 1. From your Bluemix dashboard, go to the **Containers** section and click on your new MobileFirst container.
 2. Click on the Public IP at the top to access the initial registration page to set a password for your first user.
 3. Set a password and click **Register**. This logs you in and takes you to the IBM MobileFirst Foundation main page once the user is created.
