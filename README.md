@@ -17,12 +17,12 @@ A Cloudant DB stores wishlist items from users as they add them from their mobil
 2. In the search field, type in **Cloudant** to find the **Cloudant NoSQL DB** service in the Data and Analytics section.
 3. Click on **Cloudant NoSQL DB** to select the service.
 4. **Optional** Change the Service name for Cloudant.
-5. Click **Create** and then **Restage** on teh following window to make the Cloudant service available to your app. 
+5. Click **Create** and then **Restage** on the following window to make the Cloudant service available to your app. 
 
 
 ##Build MobileFirst Container
 
-The ibm-mobilefirst-starter container gives a quick startup of the MobileFirst needed to begin mobile app connectivity. 
+The ibm-mobilefirst-starter container gives a quick startup of the MobileFirst needed to begin mobile app connectivity.
 Before you begin, make sure that you have an available Public IP address. If you have used your quota of 2 Public IP addresses, unbind a Public IP from one of your other containers. Otherwise, you can request or reuse a Public IP later in the steps.
 
 1. From your Bluemix dashboard, click on the **Start Containers** button at the top to show the list of Container Images.
@@ -63,5 +63,3 @@ Before you begin, the android project requires Java JDK 7 or better to compile t
 11. Click the menu button again and click **Wish List**  to bring up the Login screen.
 12. Leave the default values for user and password and click **Login**. On the first login, it adds the user to the Cloudant DB, creating the required tables as needed.
 13. (Optional) Pressing the **+** button allows you to add a new item to the wish list stored on Cloudant which can be retrieved by any device using the same login username and password.
-
-
