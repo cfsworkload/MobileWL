@@ -64,7 +64,7 @@ Before you begin, make sure that you have an available public IP address.
 8. Click **Create** on the right to build your container from the starter image. After the build completes, you can go to the public IP of the container to start setting up your user access.
 
 ## Set up MobileFirst
-Once the container has build, you can set up your first user to be able to access the IBM MobileFirst Platform Operations Console.
+Once the container has built, you can set up your first user to be able to access the IBM MobileFirst Platform Operations Console.
 
 1. From the Bluemix Dashboard, go to the **Containers** section and click on your new MobileFirst container.
 2. Click on the public IP address at the top to access the initial registration page to set up your user account.
