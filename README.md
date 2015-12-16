@@ -71,6 +71,20 @@ Once the container has built, you can set up your first user to be able to acces
 3. Set a password and click **Register**. This logs you in and takes you to the IBM MobileFirst Foundation main page.
 4. (Optional) Click **Open Console** to manage your MobileFirst server in the Operations Console. In this starter container, the applications and adapters for the Wish List app are already installed for you.
 
+#### MobileFirst Operations Console
+In the MobileFirst Operations Console, you have a few options for your mobile development with the MobileFirst Starter.
+- You can add new apps or adapters to connect to those apps to the server.
+- You can see a list of devices that have connected to this server and which applications are installed on them.
+- If your application has push notifications or logs, you can see them here. 
+
+#### MobileFirst Analytics Console
+The MobileFirst Analytics Console provides information about the installed applications over a time period. 
+This information includes:
+- Connected devices and their operation systems, device types, and total sessions and adapter calls.
+- Network and adapter response time from the mobile app request to the server and back.
+- Overview of the adapter requests and sessions to the server.
+- Authentication attempts and failures
+
 ## Wish List mobile app
 Install the Wish List app on your mobile device to connect to the MobileFirst Platform server. With the IBM MobileFirst starter container, the adapters needed for the Wish List app are already installed.
 
