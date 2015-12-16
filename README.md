@@ -72,10 +72,10 @@ Once the container has built, you can set up your first user to be able to acces
 4. (Optional) Click **Open Console** to manage your MobileFirst server in the Operations Console. In this starter container, the applications and adapters for the Wish List app are already installed for you.
 
 #### MobileFirst Adapters
-An adapter is server-side code used to transfer and retrieve information from back-end systems to client applications and cloud services. Three adapters are included in the MobileFirst Starter container for the Wish List app.
-- PushAdapter: The PushAdapter is used for sending push notifications to the client devices.
-- LocalStoreAdapter: The LocalStoreAdapter is used to store data into a file.
-- CatalogAdapter: The CatalogAdapter is used to retrieve the Catalog information from a web service. 
+An adapter is server-side code used to transfer and retrieve information from backend systems to client applications and cloud services. Three adapters are included in the MobileFirst Starter container for the Wish List app.
+- Push Adapter: The Push Adapter is used for sending push notifications to the client devices.
+- Local Store Adapter: The Local Store Adapter is used to store data into a file.
+- Catalog Adapter: The Catalog Adapter is used to retrieve the catalog information from a web service.  
 
 #### MobileFirst Operations Console
 In the MobileFirst Operations Console, you can view monitoring and administration options for your mobile development.
