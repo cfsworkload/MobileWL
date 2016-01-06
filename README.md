@@ -100,7 +100,7 @@ To install the Wish List app on your Android device, download Android Studio to 
 Before you begin, the Android project requires Java JDK 7 or better to compile the source code in Android Studio. If you need to download Java, you can get it from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
 1. Download and install the Android Studio SDK from http://developer.android.com/sdk/index.html to open the Android project.
-2. [Download](https://ibm.box.com/shared/static/qq10p5xhqxdszq1j9fqiuy12wnayadrf.zip) the Android project.
+2. [Download](https://github.com/cfsworkload/MobileWL/blob/master/WishlistAndroid-release71.zip?raw=true) the Android project.
 3. Extract the .zip file.
 4. In Android Studio, click **Open an existing Android Studio project**.
 5. Find and select the extracted project folder and click **Choose**.
