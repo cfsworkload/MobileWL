@@ -51,7 +51,7 @@ The Cloudant NoSQL Database stores wish list items that users add from their mob
 
 ## Build a MobileFirst container
 
-IBM Mobile First is a starter container for quick set up of the MobileFirst server needed to begin mobile-app connectivity.
+The ibm-mobilefirst-starter container image includes the settings for quick set up of the MobileFirst server needed to begin mobile-app connectivity.
 Before you begin, make sure that you have an available public IP address.
 
 1. From the Bluemix Dashboard, click **Start Containers** to show a list of container images.
