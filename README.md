@@ -112,3 +112,8 @@ Before you begin, the Android project requires Java JDK 7 or better to compile t
 11. Click the menu button again, then click **Wish List** to bring up the login screen.
 12. Leave the default values for user and password and click **Login**. On the first login, it adds the user to the Cloudant DB, creating the required tables as needed.
 13. (Optional) Pressing the **+** (plus) button allows you to add a new item to the wish list stored on Cloudant, which can be retrieved by any device using the same login username and password.
+
+####More about the app
+
+Now that the app is installed, you will see a Catalog button and a Wishlist button.
+The default items for the Catalog are retrieved by calling the Catalog Adapter that is already installed in the MobileFirst starter. That Catalog Adapter points to a catalog of information from a web service. To update the catalog, a new adapter would need to be added to the MobileFirst runtime environment. The adapter returns data from your repository and returns that data when called by a mobile device. To customize the app you can modify files in the Android package.
