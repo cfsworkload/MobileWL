@@ -24,11 +24,14 @@ Once installed:
 
 1. Log into your Bluemix account and space.
 
-  `cf ic login`  
-2. List your current external IP addresses.
+  `cf login`
+2. Log into your Cloud Foundry IBM Containers.
+
+  `cf ic login`
+3. List your current external IP addresses.
 
   `cf ic ip list`
-3. Release an IP address.
+4. Release an IP address.
 
   `cf ic ip release <public IP>`
 
