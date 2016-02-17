@@ -16,7 +16,7 @@ To find this information:
 4. In the Containers tile, information about your IP addresses is listed.
 5. Check that the **Public IPs Requested** field has at least one available IP address.
 
-If you have an IP address available, you're ready to start building your Wish List app. If all of your IP addresses have been used, you will need to release one. In order to release a public IP, install the CF IC plugin, which can be found at the website below.
+If you have an IP address available, you're ready to start building your Wish List app. If all of your IP addresses have been used, you will need to unbind one. In order to unbind a public IP, install the CF IC plugin, which can be found at the website below.
 
 https://www.ng.bluemix.net/docs/containers/container_cli_ov.html#container_cli_cfic_installs
 
@@ -31,9 +31,9 @@ Once installed:
 3. List your current external IP addresses.
 
   `cf ic ip list`
-4. Release an IP address.
+4. Unbind an IP address.
 
-  `cf ic ip release <public IP>`
+  `cf ic ip unbind <public IP> <Container ID>`
 
 ## Create a Cloud Foundry bridge app
 The Cloud Foundry app serves as a bridge app to connect your Cloudant database to the MobileFirst container.
